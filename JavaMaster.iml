@@ -11,10 +11,21 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../MySqlJdbcDriver/mysql-connector-java-8.0.27.jar!/" />
+          <root url="jar://$MODULE_DIR$/../MySqlJdbcDriver.zip!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+        <jarDirectory url="jar://$MODULE_DIR$/../MySqlJdbcDriver.zip!/" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>
   </component>
